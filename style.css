@@ -1,0 +1,32 @@
+#top{	
+	height: 65px;
+	background-color: rgb(255,31,31);
+	width: 100%;
+	top: 0;
+	overflow: auto;
+	display: table;
+}
+body{
+	background-image: url("fond.png");
+	height: 2000px;
+}
+#logo{
+	vertical-align: middle;
+	display: table-cell;
+	padding-left: 10px;
+}
+#space-body{
+	height: 1955px;
+}
+footer{
+	height: 45px;
+	width: 95%;
+	background-color: grey;
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	display: table;
+}
+footer p{
+	vertical-align: middle;
+	display: table-cell;
+}
