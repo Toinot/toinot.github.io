@@ -1,0 +1,41 @@
+#top{	
+	height: 65px;
+	background-color: rgb(255,31,31);
+	width: 100%;
+	top: 0;
+	overflow: auto;
+	display: table;
+}
+body{
+	background-image: url("fond.png");
+}
+#logo{
+	vertical-align: middle;
+	display: table-cell;
+	padding-left: 15px;
+}
+#space-body{
+	height: 100px;
+}
+#space1{
+	height: 100px;
+}
+#space2{
+	height: 100px;
+}
+footer{
+	height: 45px;
+	width: 95%;
+	background-color: grey;
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	display: table;
+}
+footer p{
+	vertical-align: middle;
+	display: table-cell;
+}
+#D img{
+	margin-left: 100px;
+	margin-right: 100px;
+}
