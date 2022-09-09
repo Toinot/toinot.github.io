@@ -1,12 +1,10 @@
-# toinot.github.io
-
-- [x] #739
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+# SAÉ Groupe 20 (D1)
+### **Contributeur :**
+- Toinot GURY :star:
+- Thomas JEANDENANT
+- Elmir GEROVIC
+- Thomas BOUVAIS
+- Noam JOLY-GIRODS
+## En cours
+- **SAÉ S1. 05-06**
+## Terminées
