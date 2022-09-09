@@ -1,5 +1,5 @@
 # SAÉ Groupe 20 (D1)
-### **Contributeur :**
+### **Contributeurs :**
 - Toinot GURY :star:
 - Thomas JEANDENANT
 - Elmir GEROVIC
