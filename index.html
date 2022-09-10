@@ -14,13 +14,25 @@
 <body>
     <header>
         <h1>SAÉ Groupe 20</h1>
-        <ul>
-            <li title="Toinot GURY">Toinot GURY</li>
-            <li title="Thomas JEANDENANT">Thomas JEANDENANT</li>
-            <li title="Elmir GEROVIC">Elmir GEROVIC</li>
-            <li title="Thomas BOUVAIS">Thomas BOUVAIS</li>
-            <li title="Noam JOLY-GIRODS">Noam JOLY-GIRODS</li>
+        <ul onload="shortName()">
+            <li id="gury" title="Toinot GURY">Toinot GURY</li>
+            <li id="jeandenant" title="Thomas JEANDENANT">Thomas JEANDENANT</li>
+            <li id="gerovic" title="Elmir GEROVIC">Elmir GEROVIC</li>
+            <li id="bouvais" title="Thomas BOUVAIS">Thomas BOUVAIS</li>
+            <li id="joly" title="Noam JOLY-GIRODS">Noam JOLY-GIRODS</li>
         </ul>
+        <script type="text/javascript">
+            function shortName () {
+                if (window.innerWidth < 950) {
+                    document.getElementById('gury').innerText = 'T';
+                    document.getElementById('jeandenant').innerText = 'T';
+                    document.getElementById('gerovic').innerText = 'E';
+                    document.getElementById('bouvais').innerText = 'T';
+                    document.getElementById('joly').innerText = 'N';
+                }
+            }
+            setInterval(shortName, 500)
+        </script>
     </header>
     <main>
         <!--SAÉ S1. 05-06-->
